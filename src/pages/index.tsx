@@ -12,19 +12,19 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="min-h-screen bg-gradient-radial from-[#2D2C2A] to-[#120D16] ">
-        <div className="grid grid-cols-2">
-          <div className="col-span-1 flex flex-col items-center justify-center space-y-12 p-4">
-            <div className="flex items-center space-x-4">
+        <div className="grid grid-cols-2 ">
+          <div className="col-span-1 flex flex-col items-center  space-y-12 p-4">
+            <div className="mt-4 flex items-center space-x-4">
               <img src="/logo.svg" alt="PostThread Logo" className="w-64" />
               <p className="font-poppins mt-4 text-4xl text-white">
                 on Mastodon
               </p>
             </div>
             <div className="mx-auto w-3/4 space-y-4 text-justify">
-              <h3 className="font-poppins text-2xl font-bold text-primary">
+              <h3 className="text-3xl font-bold text-primary">
                 Social Media that Rewards Instead of Extracts
               </h3>
-              <h5 className=" text-lg">
+              <h5 className="text-xl">
                 PostThread gives social media users control over their feed,
                 data and privacy. We compensate content creators in crypto for
                 the value they provide.
@@ -34,7 +34,7 @@ const Home: NextPage = () => {
               <button className="btn-primary btn">Go to PostThread.xyz</button>
             </Link>
             <div className="w-3/4 space-y-8 ">
-              <p className="italic">
+              <p className="text-justify text-xl italic">
                 PostThread is a Decentralized Social Media Application powered
                 by Mastodon connected to the Polkadot Parachain Frequency.
                 Please visit our{" "}
