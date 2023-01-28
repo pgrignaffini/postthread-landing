@@ -10,7 +10,12 @@ module.exports = {
       fontFamily: {
         'sans': ['"PT Sans Caption"'],
       },
+      colors: {
+        'primary': '#607686',
+        'secondary': '#5B5A4D',
+      },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+
 };
