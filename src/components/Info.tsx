@@ -2,7 +2,7 @@ import InfoRow from "./InfoRow";
 
 function Info() {
   return (
-    <div className="mt-24">
+    <div className="mt-24 ml-10">
       <div className="text-center">
         <h1 className="font-poppins text-5xl font-bold">FAQs</h1>
       </div>

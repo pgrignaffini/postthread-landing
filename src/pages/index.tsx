@@ -14,7 +14,7 @@ const Home: NextPage = () => {
       <main className="min-h-screen bg-gradient-radial from-[#2D2C2A] to-[#120D16] ">
         <div className="grid grid-cols-2 ">
           <div className="col-span-1 flex flex-col items-center  space-y-12 p-4">
-            <div className="mt-4 flex items-center space-x-4">
+            <div className="mt-16 flex items-center space-x-4">
               <img src="/logo.svg" alt="PostThread Logo" className="w-64" />
               <p className="font-poppins mt-4 text-4xl text-white">
                 on Mastodon
